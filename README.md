@@ -37,7 +37,11 @@ Lip-syncing videos using the pre-trained models (Inference)
 --------
 **Note**
 --------
-Ensure that while uninstalling the tensorflow-gpu in google colab it asks for permission to proceed you need to type "y" in the rectangular box while the cell is running.
+1.Ensure that while uninstalling the tensorflow-gpu in google colab it asks for permission to proceed you need to type "y" in the rectangular box while the cell is running.
+
+2. If you get any error please do check the file names properly
+
+3. I have adade necessary error correction but still if you get any error regarding the audio.py in WaveLip directory then open the audio.py file in line 100 change "hp.sample_rate, hp.n_fft" to "sr=hp.sample_rate, n_fft= hp.n_fft. 
 
 ---------
 
